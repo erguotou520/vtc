@@ -1,0 +1,35 @@
+{
+  "name": "vts",
+  "version": "0.0.1",
+  "description": "vue tools and stylus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erguotou520/vts.git"
+  },
+  "keywords": [
+    "vue",
+    "tools",
+    "stylus"
+  ],
+  "author": "erguotou520",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erguotou520/vts/issues"
+  },
+  "homepage": "https://github.com/erguotou520/vts#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.2",
+    "eslint": "^3.19.0",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-friendly-formatter": "^2.0.7",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-html": "^2.0.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-vue": "^2.0.1"
+  }
+}
