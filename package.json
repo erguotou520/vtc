@@ -1,14 +1,14 @@
 {
-  "name": "vts",
+  "name": "vtc",
   "version": "0.0.1",
-  "description": "vue tools and stylus",
+  "description": "vue js tools and css stylus",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/erguotou520/vts.git"
+    "url": "git+https://github.com/erguotou520/vtc.git"
   },
   "keywords": [
     "vue",
@@ -18,9 +18,9 @@
   "author": "erguotou520",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/erguotou520/vts/issues"
+    "url": "https://github.com/erguotou520/vtc/issues"
   },
-  "homepage": "https://github.com/erguotou520/vts#readme",
+  "homepage": "https://github.com/erguotou520/vtc#readme",
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-eslint": "^7.2.2",
