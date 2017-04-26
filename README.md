@@ -2,6 +2,11 @@
 Vue js tools and css stylus
 
 ## Js tools usage
+First install it as a dependency
+```
+npm i vtc -S
+```
+then
 ```
 import vtc from 'vtc'
 
