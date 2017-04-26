@@ -28,6 +28,6 @@ clone(foo, true)
 ```
 # App.vue
 <style lang="stylus">
-@import 'node_modules/vtc/stylus/flex.styl'
+@import '~vtc/stylus/flex.styl'
 </style>
 ```
