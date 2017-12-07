@@ -169,3 +169,43 @@ export function resolvePath (prefix, ...sources) {
   })
   return _prefix
 }
+
+/**
+ * Upper first char
+ * @example
+ * upperCaseFirst('hello')
+ * // Hello
+ */
+export function upperCaseFirst (str) {
+  return `${str.charAt(0).toUpperCase()}${str.substr(1)}`
+}
+
+/**
+ * lower first char
+ * @example
+ * lowerCaseFirst('Hello')
+ * // hello
+ */
+export function lowerCaseFirst (str) {
+  return `${str.charAt(0).toLowerCase()}${str.substr(1)}`
+}
+
+/**
+ * param-case to PascalCase
+ * @example
+ * param2Pascal('param-case')
+ * // ParamCase
+ */
+export function param2Pascal (str) {
+  return upperCaseFirst(str).replace(/-[a-z]/g, matched => matched.substr(1).toUpperCase())
+}
+
+/**
+ * PascalCase to param-case
+ * @example
+ * pascal2Param('PascalCase')
+ * // pascal-case
+ */
+export function pascal2Param (str) {
+  return lowerCaseFirst(str).replace(/[A-Z]/g, matched => '-' + matched.toLowerCase())
+}
