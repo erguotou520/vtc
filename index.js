@@ -12,7 +12,11 @@ import {
   isDate,
   isArray,
   isObject,
-  isFunction
+  isFunction,
+  upperCaseFirst,
+  lowerCaseFirst,
+  param2Pascal,
+  pascal2Param
 } from './utils/utils'
 export default {
   Cache,
@@ -29,7 +33,11 @@ export default {
   isDate,
   isArray,
   isObject,
-  isFunction
+  isFunction,
+  upperCaseFirst,
+  lowerCaseFirst,
+  param2Pascal,
+  pascal2Param
 }
 
 export {
@@ -47,5 +55,9 @@ export {
   isDate,
   isArray,
   isObject,
-  isFunction
+  isFunction,
+  upperCaseFirst,
+  lowerCaseFirst,
+  param2Pascal,
+  pascal2Param
 }
