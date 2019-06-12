@@ -1,0 +1,35 @@
+$spaces = 4 8 12 16 20 24
+$funcMap = {
+  m: 'margin',
+  p: 'padding'
+}
+
+for $funcK, $funcV in $funcMap
+  for $space in $spaces
+    .{$funcK}t-{$space}
+      {$funcV}-top ($space)px
+    .{$funcK}r-{$space}
+      {$funcV}-right ($space)px
+    .{$funcK}b-{$space}
+      {$funcV}-bottom ($space)px
+    .{$funcK}l-{$space}
+      {$funcV}-left ($space)px
+    .{$funcK}x-{$space}
+      {$funcV}-left ($space)px
+      {$funcV}-right ($space)px
+    .{$funcK}y-{$space}
+      {$funcV}-top ($space)px
+      {$funcV}-bottom ($space)px
+    .{$funcK}-{$space}
+      {$funcV}-left ($space)px
+      {$funcV}-right ($space)px
+      {$funcV}-top ($space)px
+      {$funcV}-bottom ($space)px
+
+.ml-auto
+  margin-left auto
+.mt-auto
+  margin-top auto
+.mx-auto
+  margin-left auto
+  margin-right: auto

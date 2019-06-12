@@ -1,6 +1,6 @@
 {
   "name": "vtc",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "vue js tools and css stylus",
   "main": "index.js",
   "scripts": {
@@ -30,6 +30,8 @@
     "eslint-loader": "^1.7.1",
     "eslint-plugin-html": "^2.0.1",
     "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-vue": "^2.0.1"
+    "eslint-plugin-vue": "^2.0.1",
+    "gulp": "^4.0.2",
+    "gulp-stylus": "^2.7.0"
   }
 }

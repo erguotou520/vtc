@@ -1,0 +1,12 @@
+.w-100p {
+  width: 100%;
+}
+.w-100v {
+  width: 100vw;
+}
+.h-100p {
+  height: 100%;
+}
+.h-100v {
+  height: 100vh;
+}

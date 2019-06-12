@@ -1,0 +1,26 @@
+.t-left
+  text-align: left
+.t-center
+  text-align center
+.t-right
+  text-align: right
+
+.t-bold
+  font-weight: bold
+
+// trunc(lines)
+//   overflow: hidden
+//   text-overflow: ellipsis
+//   white-space: nowrap
+//   if lines > 1
+//     -webkit-line-clamp lines
+.t-trunc
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+// .t-trunc-2
+//   trunc(2)
+
+for $num in 0 10 12 14 16 18 20 22 24
+  .font-{$num}
+    font-size ($num)px

@@ -209,3 +209,15 @@ export function param2Pascal (str) {
 export function pascal2Param (str) {
   return lowerCaseFirst(str).replace(/[A-Z]/g, matched => '-' + matched.toLowerCase())
 }
+
+/**
+ * 模拟sleep函数
+ * @param {Number} time 休眠时间，单位ms
+ * @example
+ * await sleep(3000)
+ */
+export function sleep (time) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, time)
+  })
+}

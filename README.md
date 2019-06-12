@@ -28,11 +28,17 @@ clone(foo, true)
 - clone(data, bool): clone data, deep clone when bool is true
 - param(data): param data to http request object
 - resolvePath(prefix, ...path): resolve path, like nodejs
+- upperCaseFirst|lowerCaseFirst|param2Pascal|pascal2Param: words utils
+- sleep(time): mock sleep method
 
 ## Stylus usage
 ```
 # App.vue
 <style lang="stylus">
-@import '~vtc/stylus/flex.styl'
+@import '~vtc/stylus/index.styl'
+</style>
+OR
+<style>
+@import '~vtc/css/index.css';
 </style>
 ```
