@@ -1,7 +1,9 @@
 /**
  * FLex display helper
  */
-.flex {
+.flex,
+.flex-row,
+.flex-column {
   display: flex;
 }
 .flex-inline {
