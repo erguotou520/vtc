@@ -6,8 +6,13 @@
 .flex-inline
   display inline-flex
 .flex-row
+  @extend .flex
   flex-direction row
 .flex-column
+  @extend .flex
+  flex-direction column
+.flex-inline-column
+  @extend .flex-inline
   flex-direction column
 
 .jc-center

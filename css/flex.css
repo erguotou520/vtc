@@ -1,16 +1,22 @@
 /**
  * FLex display helper
  */
-.flex {
+.flex,
+.flex-row,
+.flex-column {
   display: flex;
 }
-.flex-inline {
+.flex-inline,
+.flex-inline-column {
   display: inline-flex;
 }
 .flex-row {
   flex-direction: row;
 }
 .flex-column {
+  flex-direction: column;
+}
+.flex-inline-column {
   flex-direction: column;
 }
 .jc-center {
