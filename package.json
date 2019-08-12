@@ -1,6 +1,6 @@
 {
   "name": "vtc",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "vue js tools and css stylus",
   "main": "index.js",
   "scripts": {
